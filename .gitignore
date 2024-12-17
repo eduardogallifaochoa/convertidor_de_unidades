@@ -1,0 +1,26 @@
+# Carpetas generadas automáticamente
+__pycache__/          # Caché de Python
+dist/                 # Carpeta de distribuciones
+build/                # Carpeta de compilación
+
+# Archivos temporales y logs
+*.log                 # Archivos de registro/log
+*.tmp                 # Archivos temporales
+
+# Configuraciones locales de IDEs
+.vscode/              # Configuración local de Visual Studio Code
+.idea/                # Configuración local de PyCharm (JetBrains)
+*.iml                 # Archivos de proyecto JetBrains
+
+# Archivos binarios o específicos de tu máquina
+*.exe                 # Ejecutables de Windows
+*.dll                 # Librerías dinámicas de Windows
+*.zip                 # Archivos comprimidos
+*.rar
+
+# Archivos de entorno virtual de Python
+venv/                 # Carpeta de entorno virtual
+
+# Configuraciones del sistema operativo
+.DS_Store             # MacOS archivos invisibles
+Thumbs.db             # Archivos del sistema de Windows
