@@ -24,3 +24,29 @@ venv/                 # Carpeta de entorno virtual
 # Configuraciones del sistema operativo
 .DS_Store             # MacOS archivos invisibles
 Thumbs.db             # Archivos del sistema de Windows
+
+# Ignorar claves o licencias
+*.key
+*.license
+secret.txt
+
+# Ignorar archivos temporales y cachés
+__pycache__/
+*.log
+*.tmp
+
+# Ignorar archivos y carpetas no deseados
+build/
+dist/
+*.spec
+*.crt
+*.pfx
+*.key
+*.zip
+*.exe
+*.pyc
+*.pkg
+*.toc
+*.html
+*.txt
+
